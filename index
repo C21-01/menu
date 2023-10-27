@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Веб-сторінка з навігацією</title>
+    <style>
+    	body {
+        	background-color: #004000
+        }
+        .horizontal-navigation {
+            background-color: #007400;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .horizontal-navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .horizontal-navigation li {
+            display: inline;
+            margin: 0 20px;
+        }
+        .horizontal-navigation a {
+            color: #333;
+            text-decoration: none;
+        }
+        .horizontal-navigation a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-logo {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 20px;
+        }
+
+        .rounded-image {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .vertical-navigation {
+            background-color: #006400;
+            width: 200px;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .vertical-navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .vertical-navigation li {
+            margin: 0;
+        }
+        .vertical-navigation a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .vertical-navigation a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <nav class="horizontal-navigation">
+        <div class="nav-logo">
+            <img src="https://th.bing.com/th/id/R.59f65aae00a4c1acaf035a2538718d1c?rik=XCNOfSsUOFqm6A&pid=ImgRaw&r=0" alt="Логотип" class="rounded-image">
+        </div>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+    <nav class="vertical-navigation">
+        <ul>
+            <li><a href="#">Про мене</a></li>
+            <li><a href="#">Освіта</a></li>
+            <li><a href="#">Хобі</a></li>
+            <li><a href="#">Подорожі</a></li>
+            <li><a href="#">Уподобання</a></li>
+        </ul>
+    </nav>
+</body>
+</html>         
